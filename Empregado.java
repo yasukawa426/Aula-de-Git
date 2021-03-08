@@ -5,7 +5,7 @@ public class Empregado{
     private double salario;
     private double comissao;
     private double bonus;
-
+//head aponta pra commit atual
     public double calcularSalario(){
         switch (tipo){
             case 1:
@@ -51,7 +51,7 @@ public class Empregado{
         this.tipo = tipo;
     }
     public void setIdade(int idade) {
-        Idade = idade;
+        this.idade = idade;
     }
     public void setNome(String nome) {
         this.nome = nome;
